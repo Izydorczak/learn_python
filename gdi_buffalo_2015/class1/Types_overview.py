@@ -7,9 +7,6 @@ x = str(x)
 type(x)
 x
 
-50.upper()
-"fifty".upper()
-
 5+5
 True + True
 
@@ -83,3 +80,6 @@ my_string[::-1]
 n = 3
 x = 2
 n/x
+
+50.upper()
+"fifty".upper()
