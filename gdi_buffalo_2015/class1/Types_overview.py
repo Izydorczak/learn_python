@@ -83,3 +83,10 @@ n/x
 
 50.upper()
 "fifty".upper()
+
+sum = 2
+sum
+sum = sum + 1
+sum
+sum += 5
+sum
