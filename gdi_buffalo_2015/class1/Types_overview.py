@@ -13,7 +13,7 @@ True + True
 50 * 2
 ‘50’ * 2
 
-hamburger[4:6]
+'hamburger'[4:6]
 [10,11,12,13,14,15,16,17][4:6]
 
 L = []				#empty list
