@@ -1,8 +1,8 @@
 start = 15
 start//4 
-start%4
+start%2
 start**4
-start /= 4
+start /= 2
 start
 
 round(2.32,1)
