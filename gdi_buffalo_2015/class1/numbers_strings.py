@@ -1,9 +1,9 @@
-15/4
-15//4 
-15%4
-15**4
-
-40/3
+start = 15
+start//4 
+start%4
+start**4
+start /= 4
+start
 
 round(2.32,1)
 abs(-5)
