@@ -81,8 +81,8 @@ n = 3
 x = 2
 n/x
 
-50.upper()
 "fifty".upper()
+50.upper()
 
 sum = 2
 sum
