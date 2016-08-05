@@ -24,7 +24,7 @@ L
 
 x = “show”
 x.append(“er”)
-x = “show” + (“er”)
+x = “show” + “er”
 
 sum = sum + 1   #is equivalent to 
 sum += 1
