@@ -8,9 +8,9 @@ else:
 
 pigs = “fly”
 if pigs == “fly”:
-print “This prints.”
+	print “This prints.”
 else:
-print “This does not print.”	
+	print “This does not print.”	
 
 import random
 x = random.randint(-10,10)
@@ -79,8 +79,15 @@ a = 4
 1 < a < 5
 1 + 9 == 10 and 90 / 2 == 40             			
 not 5 == 1
+'a' in 'dog'
+'t' in 'cat'
+'l' not in 'dog' or 'cat'
 
 bool(5)
 bool([2,3,4])
 bool([])
 bool(True)
+bool('words')
+bool('')
+bool(' ')
+
