@@ -1,8 +1,8 @@
 dogs = [‘Rover’, ‘Max’, ‘Holly’] 	#show with different variable names for dog
 for dog in dogs:
-	#dog = dog + ‘s’
+	dog = dog + ‘s’
 	print dog		# in other languages we usually go through by index, not by item
-	
+print dogs	
 for letter in “word”:
 	print letter + “uba”
 
