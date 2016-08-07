@@ -41,37 +41,19 @@
 
 <h3>for is useful for doing something to or with each item in a list or other iterable.</h3>
 
-Try 
-<script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Loops.py?slice=0:4"></script>
-
+Try in the shell:
+<script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Loops.py?slice=0:5"></script>
+Notice that the original list called 'dogs' doesn't change. Most of the time we use a for loop to go through a list by item.
+Here is an example of when we might want to iterate through by index.
+<script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Loops.py?slice=28:32"></script>
 Try 
 <script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Loops.py?slice=5:7"></script>
 
-Try 
+Try in the shell or temp file.
 <script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Loops.py?slice=8:15"></script>
-
-<h3>range is useful for number sequences</h3>
-or for traversing a list using the index of each item
-
-Try
-<script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Loops.py?slice=16:17"></script>
-
-
-Try
-<script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Loops.py?slice=18:20"></script>
-
-Try
-<script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Loops.py?slice=21:27"></script>
-
-back to dogs, repeat code and this time add
-print dogs
-notice that the original list has not changed. We only temporarily changed each dog.
-
-Most of the time we iterate through a list by items, like dogs. Sometimes it is useful to iterate by the index of each item. Each item in a list has a corresponding index number, starting with 0.
-
-Here is code that would change each dog in the list.
-<script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Loops.py?slice=28:32"></script>
-
+<pre>
+Try using a range of ages instead of [12,15,17].
+</pre>
 This code uses range and len to shuffle a group of items.
 <script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Loops.py?slice=33:37"></script>
 
@@ -88,16 +70,16 @@ Try
 Different from for because it will continue to loop until some condition is met, indefinite number of repetitions
 
 <h3>Pypet with while loops</h3>
+Put this in your Pypet file.
 <script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Loops.py?slice=47:54"></script>
 
-Then add break for else within loop.
-Then add else for while loop with print i feel full.
-<script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Loops.py?slice=55:66"></script>
+Add the lines below to improve it. Notice how break is used and how while/else is used.
+Then add else for while loop with print i feel full.<script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Loops.py?slice=55:66"></script>
 
 <h3>Control Flow with while</h3>
 <ul>
 <li>break will break out of the loop and go to the next statement outside of the loop without executing anything else within the loop.</li>
-<li>continue will return to the top of the loop.</li>
+<li>continue will return to the top of the loop without completing the rest of the code in that block this time through.</li>
 <li>else will execute if the loop condition fails. Gets skipped if there is a break.</li>
 </ul>
 <script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Loops.py?slice=67:71"></script>
