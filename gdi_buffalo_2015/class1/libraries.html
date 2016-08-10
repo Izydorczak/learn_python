@@ -22,16 +22,21 @@
         </div> <!-- end of jumbotron -->
     </div> <!-- end of container for jumbotron-->
     <div class="container">
-libraries are essentially sets of functions that other people have written and that we might want to make use of.
-Turtle is an example of a library. functions like these are contained it it:
+libraries are essentially sets of classes and functions that other people have written and that we might want to make use of.
+turtle is an example of a library. classes (think homemade types) like these are contained in it:
 <ul>
-<li>forward(number_of_steps)</li>
-<li>left(number_of_degrees)</li>
 <li>Screen()</li>
 <li>Turtle()</li>
 </ul>
-<h3> Options for getting and using these turtle functions</h3>
-<pre>Related commands, or reserve words, include:
+To use a class Turtle within the turtle library, you need dot notation, such as turtle.Turtle(). These classes contain functions. A function within a class can be called a method and also requires dot notation.
+<pre>
+  exitonclick() is a method, or function, of the Screen class.
+  forward() is a method, or function, of the Turtle class.
+  So when I have named a Turtle, such as Paula, I use the dot notation, Paula.forward(), to use the forward method.
+</pre>
+
+<h3> Options for getting and using these turtle classes with methods</h3>
+<pre>Related commands include:
 import
 as
 from
@@ -41,11 +46,11 @@ Look over this example. Go ahead and try it if you don't remember how it worked.
 
 A convention in programming is to put all import statements at the top of the file. This example uses the as command to give turtle a nickname. Read it over. Trying is optional.
 <script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/libraries.py?slice=6:11"></script>
-I can use the from command to import specific functions from the turtle library. Notice how now I don't have to use the dot notation for all.
+I can use the from command to import specific classes and functions from the turtle library. Notice how now I don't have to use the dot notation for all.
 
-<script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/libraries.py?slice=12:19"></script>
+<script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/libraries.py?slice=12:17"></script>
 Here I am importing all functions from turtle and again I don't need to use dot notation.
-<script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/libraries.py?slice=20:27"></script>
+<script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/libraries.py?slice=18:23"></script>
 What are good reasons to use or not to use these techniques?
 
 <h3> A Few Examples Built in Python libraries</h3>
@@ -58,9 +63,9 @@ What are good reasons to use or not to use these techniques?
 </ul>
 Other Python libraries can be installed.
 <pre>
-There are many Python libraries. Developers are putting new ones out regularly that apply to a large variety of fields and purposes. 
-Google Python libraries and find two libraries that look interesting to you.  
-Use google to learn about Pythons built in calendar library. 
+There are many Python libraries that apply to a large variety of fields and purposes. 
+Try searching for Anaconda Python libraries and find two libraries that look interesting to you.  
+Use Google to learn about Python's built in calendar library. 
 Try using the 4 methods of importing with some functions from the calendar library. Functions you might try are isleap, leapdays, weekday.
 </pre>
 </div> <!-- end of container for sample code -->
