@@ -25,7 +25,7 @@ for age in range(12,18):
 	age +=years
 	ages_later.append(age)
 print ages_later
-
+print range(len(dogs))
 dogs = [‘Rover’, ‘Holly’,'Dulcie','Spot'] 	
 for i in range(len(dogs)):
 	dogs[i] = dogs[i] + ‘\’s’
