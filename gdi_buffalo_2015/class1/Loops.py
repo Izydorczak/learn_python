@@ -1,12 +1,12 @@
-dogs = [‘Rover’, ‘Max’, ‘Holly’] 	#show with different variable names for dog
+dogs = [‘Rover’, ‘Max’, ‘Holly’] 	
 for dog in dogs:
-	dog = dog + ‘s’
-	print dog		# in other languages we usually go through by index, not by item
-print dogs	
+	dog = dog + ‘\'s’
+	print dog		
+	
 for letter in “word”:
 	print letter + “uba”
 
-ages_later = []		#could first do ages_2 and just move the ages, talk about variable names
+ages_later = []		
 years = 10
 ages = [12, 15, 17]
 for age in ages:
@@ -26,7 +26,7 @@ for age in range(12,18):
 	ages_later.append(age)
 print ages_later
 
-dogs = [‘Rover’, ‘Holly’,'Dulcie','Spot'] 	# first do len(dogs) then range(len(dogs)) then do again using enumerate
+dogs = [‘Rover’, ‘Holly’,'Dulcie','Spot'] 	
 for i in range(len(dogs)):
 	dogs[i] = dogs[i] + ‘\’s’
 print dogs
@@ -66,8 +66,8 @@ else:
 print 'Now what?'
 
 dogs = [‘Holly’, ‘Max’, ‘Sadie’, ‘Joey’]
-while dogs:					#unempty lists have the boolean value of True
-	print dogs.pop(0) + “ barks.”		# pop gets an item AND removes it from the list
+while dogs:					
+	print dogs.pop(0) + “ barks.”		
 	print dogs
 
 dogs = ['Holly','Max','Sadie','Joey']
@@ -80,7 +80,7 @@ while len(dogs) > 1:
 	print dogs
 
 x = 10
-while x:			#remember x has the boolean value of True
+while x:			
 	x = x-1
 	if x % 2 != 0:
 		continue
