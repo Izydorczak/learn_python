@@ -63,7 +63,7 @@ while food < 5:
 		break
 else:
 	print "I sure was hungry!"
-print 'Now what?'
+print 'Now I'm full'
 
 dogs = [‘Holly’, ‘Max’, ‘Sadie’, ‘Joey’]
 while dogs:					
