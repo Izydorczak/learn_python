@@ -81,7 +81,7 @@ a = 4
 not 5 == 1
 'a' in 'dog'
 't' in 'cat'
-'l' not in 'dog' or 'cat'
+
 
 bool(5)
 bool([2,3,4])
