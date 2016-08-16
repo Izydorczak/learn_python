@@ -12,13 +12,13 @@ print tip(15,24.50)
 
 bill = raw_ input(“What did your bill come to?”)
 p = raw_input(“What percentage would you like to use for the tip?”)
-print ‘tip is’ tip(float(p), float(bill)) #show float conversion outside
+print ‘tip is’ tip(float(p), float(bill))
 
 total_tips = 0
 for transaction in range(8):
-	# random amount from bills
-	total = float(randrange(2000,4000)/100)
-	tip_percent = float(randrange(15,20))
+	
+	total = float(randrange(2000,4000)/100)		#random amount from bills
+	tip_percent = float(randrange(10,20))		#random percents for tips
 	total_tips += tip(tip_percent, total)
 print total_tips
 
