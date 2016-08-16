@@ -29,8 +29,8 @@ if grade > 90:
 	print “A”
 elif grade < 90 and grade > 80:
 	print “B”
-
 grade = raw_input(“Enter a whole number grade between 0 and 100 “)
+grade = int(grade)
 if grade > 90:
 	print “A”
 elif grade > 80:
