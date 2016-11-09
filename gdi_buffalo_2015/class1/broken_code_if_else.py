@@ -7,18 +7,18 @@ import random
 
 # Generate a random integer in the range 10 to 49.
 i = random.randrange(10,24)
-print 'Your number is', i
+print('Your number is', i)
 
 # analyze the number for important properties.
 if i < 20:
-print "That is less than 20."
+print("That is less than 20.")
 if i % 3 == 0:
-print "It is divisible by 3."
+print("It is divisible by 3.")
 elif i == 20:
-print "That is exactly twenty.  How nice for you."
+print("That is exactly twenty.  How nice for you.")
 else:
 if i % 2 == 1:
-print "That is an odd number."
+print("That is an odd number.")
 else:
-print "That is twice", i / 2, '.'
-print "Wow! That's more than 20!"
+print("That is twice", i / 2, '.')
+print("Wow! That's more than 20!")
