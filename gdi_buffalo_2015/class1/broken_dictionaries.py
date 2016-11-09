@@ -10,19 +10,19 @@ __author__ = "wendyjan"
 if __name__ == "__main__":
     # Create a dictionary and print it.
     zodiacs = {1974: "Tiger", 1988: "Dragon", 1981: "Rooster", 1944: "Monkey", 2001: "Snake"
-    print zodiacs
+    print (zodiacs)
 
     # Add some new years and zodiac signs to the dictionary.
     zodiacs[1976] = "Dragon"
     zodiacs[1977] = "Snake"
     zodiacs[1978] == "Horse
-    print "Zodiacs has been updated to include:" zodiacs
+    print ("Zodiacs has been updated to include:" zodiacs)
 
     # Count how many dragons there are.
     for k in zodiacs:
         if zodiacs[k] == "Dragon":
             count += 1
-    print "There are", count, "dragons in my dictionary."
+    print ("There are", count, "dragons in my dictionary.")
 
     # Add a lot more years, all in one loop!
     for i in range(1945, 2017):
@@ -50,7 +50,7 @@ if __name__ == "__main__":
             zodiacs[i] = "Horse"
         elif i % 12 == 11:
             zodiacs[i] = "Goat"
-        print i, ":", zodiacs[i]
+        print (i, ":", zodiacs[i])
 
     # There is a MUCH simpler way to add all of those years,
     # without typing a ton of "if" and "elif" statements!
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     record = {}
     record["Wendy"] = [3]
     record["Wendy"].append(5)
-    print "Wendy's record so far is January:", record["Wendy"]
+    print ("Wendy's record so far is January:", record["Wendy"])
     # Add in other learners.
     record["Jason"] = [1, 2, 3, 4, 5, 10, 11, 14]
     record["Silvia"] = range(15)
