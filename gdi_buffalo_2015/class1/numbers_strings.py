@@ -16,7 +16,7 @@ import random
 random.random()
 random.randint(1,10)
 
-a = raw_input(“What is the value of a? “)
+a = input(“What is the value of a? “)
 
 5 == 6
 5==5
