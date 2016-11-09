@@ -1,3 +1,5 @@
+# run in Python 2
+
 import Tkinter
 import random
 
