@@ -25,7 +25,7 @@ if __name__ == "__main__":
     my_mixed_list = [1, 1, 2, 3, "shell", "petal", 13, 21.0]
     for thing in my_mixed_list:
 	print(thing, "is of type:", type(thing))
-
+    import turtle
     ted = turtle.Turtle()
     ted.speed(1)
     for temp_color in ["red", "blue", "green", "black"]:
