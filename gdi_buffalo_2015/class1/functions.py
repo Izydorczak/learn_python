@@ -1,5 +1,5 @@
 def credits():
-	print “This example was borrowed from \’Learning Python\’ by Mark Lutz.”
+	print(“This example was borrowed from \’Learning Python\’ by Mark Lutz.”)
 
 credits()
 	
@@ -8,10 +8,10 @@ def tip(percentage, total):
 
 tip(15,24.50)
 
-print tip(15,24.50)
+print(tip(15,24.50))
 
-bill = raw_ input(“What did your bill come to?”)
-p = raw_input(“What percentage would you like to use for the tip?”)
+bill = input(“What did your bill come to?”)
+p = input(“What percentage would you like to use for the tip?”)
 print ‘tip is’ tip(float(p), float(bill))
 
 total_tips = 0
@@ -20,13 +20,13 @@ for transaction in range(8):
 	total = float(randrange(2000,4000)/100)		#random amount from bills
 	tip_percent = float(randrange(10,20))		#random percents for tips
 	total_tips += tip(tip_percent, total)
-print total_tips
+print(total_tips)
 
 def salutation(person, gender):
 	if gender = “female” or gender == “f”:
-		print “Ms. “ + person
+		print(“Ms. “ + person)
 	else:
-		print “Mr. “ + person
+		print(“Mr. “ + person)
 
 team = {‘Izydorczak’:”female”, ‘Jansson’:”female”, ‘Ryan’’:”male”]
 for member in team:
@@ -35,7 +35,7 @@ for member in team:
 
 def express_happy():
 	say_options =[“I love you!”, “Hip hip hurray!”, “Purr, Purr, I’m happy!”]
-	print random.choice(say_options)
+	print(random.choice(say_options))
 
 import random
 hungry = random.randint(0,10)
@@ -47,7 +47,7 @@ else:
 import random
 def express_happy(owner):
 	say_options = [“I love you “ + owner + “!”, “Hip hip hurray!”]
-	print random.choice(say_options)
+	print(random.choice(say_options))
 
 drawSquare()
 drawSquare(x,y)
