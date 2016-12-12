@@ -38,7 +38,7 @@ for sideNum in range(5):
   
 alex.shape("turtle")
 alex.shape("square")
-alex.penup()
+alex.penup()          #follow this with one of the movement commands
 alex.pendown()
 alex.circle(6)
 alex.pensize(4)
