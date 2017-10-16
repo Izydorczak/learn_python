@@ -28,7 +28,8 @@ if __name__ == "__main__":
 		still_needed = still_needed + item
 
     # Now make a list of numbers (unrelated to the previous lists).
-    numbers = range(20)
+    N = 20 	# you should be able to change N to other integers and the code still works
+    numbers = range(N)
     print numbers
     
     # Print the smallest and largest numbers in the list.
@@ -39,7 +40,7 @@ if __name__ == "__main__":
     for i in range(len(numbers), 0, -1):
         print numbers[i]
 
-    # Print every other number in the reversed list.
+    # Print every other number.
     for i in range(len(numbers)):
 	if i / 2 == 0:
 	    print numbers[i]
