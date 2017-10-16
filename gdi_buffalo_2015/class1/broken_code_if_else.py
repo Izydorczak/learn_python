@@ -1,7 +1,7 @@
 
 # Python program to generate a random number with commentary.
 # copied from http://sandbox.mc.edu/~bennet/python/code/if_py.html
-# Fix the indentation so that it makes sense
+# Fix only the indentation so that the output is always accurate
 
 import random
 
