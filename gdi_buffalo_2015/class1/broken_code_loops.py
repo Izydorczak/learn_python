@@ -1,4 +1,4 @@
-prices = [7.50, 6.00, 7.72, 8.80]
+prices = [7.50, 6.00, 7.72, 8.80, 5.50, 2.00]
 
 
 # this loop prints total of prices
