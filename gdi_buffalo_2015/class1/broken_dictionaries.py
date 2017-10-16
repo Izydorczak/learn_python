@@ -65,8 +65,7 @@ if __name__ == "__main__":
     # Add in other learners.
     record["Jason"] = [1, 2, 3, 4, 5, 10, 11, 14]
     record["Silvia"] = range(15)
-    # Print the learner or learners who practiced the most days.
-    top_number = max(record.values())
-    for L in record.values():
-	if record[L] == top_number:
-	    print L, "practiced the most!"
+    # Challenge - Print the learner or learners who practiced the most days.
+    # Your code goes here.
+    
+	       
