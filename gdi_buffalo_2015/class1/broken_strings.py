@@ -4,7 +4,7 @@
 #with all the groots capitalized and the first letter of each sentence capitalized. 
 
 # print(paragraph) should give us the original paragraph, with all the groots capitalized
-paragraph = "i am groot. yeah we know who you are. i am groot. yeah, you just said that.I wasn't retrieving the orb for Ronan"
+paragraph = "i am groot. yeah we know who you are. i am groot. yeah, you just said that.I wasn't retrieving the orb for Ronan. I was betraying him. i am groot. well that's just as fascinating as the first 89 times you said that."
 
 print("What follows is the paragraph with all the groots capitalized:\n ",paragraph.replace('groot', 'Groot'))
 
