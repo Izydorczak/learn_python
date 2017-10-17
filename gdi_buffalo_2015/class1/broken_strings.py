@@ -4,6 +4,6 @@
 #with all the groots capitalized and the first letter of each sentence capitalized. 
 
 # print(paragraph) should give us the original paragraph, with all the groots capitalized
-paragrap= "i am groot. yeah we know who you are. i am groot. yeah you just said that." 
+paragraph = "i am groot. yeah we know who you are. i am groot." 
 
 
