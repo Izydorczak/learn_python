@@ -15,7 +15,7 @@ print ("\n\nWhat follows should still be the paragraph with all the groots capit
 par_list = paragraph.split('.')
 print("\n\nThis is the paragraph split into a list:\n",par_list)
 
-The empty sentence at the end causes a key error. You will need to remove it.
+#The empty sentence at the end causes a key error. You will need to remove it.
 
 # This loop will capitalize each sentence
 
