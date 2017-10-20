@@ -8,11 +8,11 @@ type(x)
 x
 
 5+5
-True + True
+str(5) + str(5)
 
 50 * 2
 ‘50’ * 2
-
+[1,2,3] + [4,5]
 'hamburger'[4:6]
 [10,11,12,13,14,15,16,17][4:6]
 
@@ -23,8 +23,8 @@ L.append(“what?”)
 L
 
 x = “show”
-x.append(“er”)
 x = “show” + “er”
+x
 
 sum = sum + 1   #is equivalent to 
 sum += 1
