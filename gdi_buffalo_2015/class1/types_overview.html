@@ -109,11 +109,12 @@ int a</br>
 a = 5</p>
 
 In Python, we don’t need to declare a type. Python decides implicitly what the type is.
-
+<!--
 <h3>Type conversion</h3>
 So what are the type words listed above used for? Sometimes Python gets our intentions wrong. At the interactive prompt, type:
 <script src="http://gist-it.appspot.com/https://github.com/Izydorczak/learn_python/tree/master/gdi_buffalo_2015/class1/Types_overview.py?slice=79:82"></script>
 <p>Now try using type commands to change this so that you get an answer of 1.5.</br></p>
+-->
 
 Let's explore types some more. 
 At the interactive prompt, enter 
@@ -125,6 +126,7 @@ To find out, try
 You can change the type of x. Remember that x is the integer 50. Try changing x so that it is a string. Type:
 <script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Types_overview.py?slice=5:8"></script>
 What other types does Python allow you to change  x to? Try some. Type changes are not always allowed because some just don't make sense.
+
 
 
 <h3>Why should we care about types?</h3>
@@ -151,15 +153,17 @@ Try
 Try
 <script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Types_overview.py?slice=9:11"></script>
 
-Try
-<script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Types_overview.py?slice=15:17"></script>
+
 You can see from these examples that the behavior of an operation or function depends on the type of the object.
 
 <h4>Sequences</h4>
 Several types are called sequences because they have a positional ordering:
 lists, strings, tuples
-So they share slicing and indexing methods like the one above. 
-Compare this to dicts and sets where order doesn't matter.
+So they share slicing and indexing methods like this.
+Try
+<script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Types_overview.py?slice=15:17"></script>
+Notice that the counting in these sequences starts at zero, not 1.<br>
+Dictionaries and Sets cannot be sliced and indexed like this because they are not sequences. That means that the items in them are not in order.
 
 <h4>Mutables</h4>
 Several types are referred to as mutable.
@@ -180,12 +184,15 @@ all numbers, bools, strings, tuples
 It is a subtle difference.
 <script src="http://gist-it.appspot.com/https://github.com/wendyjan/learn_python/tree/master/gdi_buffalo_2015/class1/Types_overview.py?slice=24:28"></script>
 <script src="http://gist-it.appspot.com/https://github.com/izydorczak/learn_python/tree/master/gdi_buffalo_2015/class1/Types_overview.py?slice=86:92"></script>
+
+<!--
 <h2>PyPet</h2>
 (remember Tomagachis?)
 What variables of different types could be used to create characteristics of a PyPet? Try to think of one for each type.
 
-
+-->
     </div> <!-- end of container for sample code -->
 
   </body>
 </html>
+
