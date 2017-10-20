@@ -6,7 +6,7 @@ type(x)
 x = str(x)
 type(x)
 x
-
+x/2
 5+5
 str(5) + str(5)
 
@@ -24,7 +24,7 @@ L
 
 x = "show"
 x = "show" + "er"
-x
+x.append("er")    #does not work. Why?
 
 sum = sum + 1   #is equivalent to 
 sum += 1
