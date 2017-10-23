@@ -42,7 +42,7 @@ for x in range(100):
 		multiples_of_two_and_three.append(x)
 print(multiples_of_two_and_three)
 
-for i, day in enumerate([Mon, Tue, Wed, Thurs, Fri]):
+for i, day in enumerate(['Mon', 'Tue', 'Wed', 'Thurs', 'Fri']):
 	print(i, day)
 
 food = 0
