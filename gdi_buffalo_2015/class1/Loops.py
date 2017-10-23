@@ -1,6 +1,6 @@
 dogs = [‘Rover’, ‘Max’, ‘Holly’] 	
 for dog in dogs:
-	dog = dog + ‘\'s’
+	dog = dog + '\'s'
 	print(dog)		
 	
 for letter in “word”:
