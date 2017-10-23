@@ -101,14 +101,12 @@ for dog in dogs:
 	
 	print(“That is %s\’s %s.” % (dog,toy))
 
-items = [“aaa”, 111, (4,5), 2.01]
+items = ["aaa", 111, (4,5), 2.01]
 tests = [(4,5), 3.14]
 for thing in tests:
-	for item in items:
-		if item == thing:
-			print thing + “was found”
-		else:
-			print thing + “was not found”
+        for item in items:
+                if item == thing:
+                        print(str(thing) + "was found")
 
 	
 
