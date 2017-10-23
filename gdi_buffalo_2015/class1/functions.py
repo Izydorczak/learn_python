@@ -1,5 +1,5 @@
 def credits():
-	print(“This example was borrowed from \’Learning Python\’ by Mark Lutz.”)
+	print("This example was borrowed from \'Learning Python\' by Mark Lutz.")
 
 credits()
 	
@@ -12,13 +12,13 @@ print(tip(15,24.50))
 
 bill = input(“What did your bill come to?”)
 p = input(“What percentage would you like to use for the tip?”)
-print ‘tip is’ tip(float(p), float(bill))
+print("tip is", tip(float(p), float(bill)))
 
 total_tips = 0
 for transaction in range(8):
-	
-	total = float(randrange(2000,4000)/100)		#random amount from bills
-	tip_percent = float(randrange(10,20))		#random percents for tips
+	# you'll need to import random at the start of the file
+	total = float(random.randrange(2000,4000)/100)		#random amount from bills
+	tip_percent = float(random.randrange(10,20))		#random percents for tips
 	total_tips += tip(tip_percent, total)
 print(total_tips)
 
