@@ -67,3 +67,6 @@ my_string[0:11:3]
 my_string[::-1]
 my_string[0:2] + my_string[-2:]
 
+S = S.lower()
+S = S.replace('!','?')
+S
