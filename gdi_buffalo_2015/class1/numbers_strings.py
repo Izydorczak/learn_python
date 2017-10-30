@@ -34,7 +34,7 @@ not 5 == 1
 
 “Munch”
 ‘Munch’		
-“Wake up, kids!\n It\’s time for school.”
+"Wake up, kids! \n It\'s time for school."
 
 
 S = “Happy Halloween, Best Witches!”
