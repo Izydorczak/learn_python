@@ -16,7 +16,7 @@ import random
 random.random()
 random.randint(1,10)
 
-a = input(“What is the value of a? “)
+a = input("What is the value of a? ")
 
 5 == 6
 5==5
@@ -47,7 +47,7 @@ S[4]
 S[5:10]
 S.find(’Witch’)
 S.find(“a”)
-S.replace(‘!’, ‘?’)
+S.replace(‘!’, '?')
 S.split(‘ ‘)
 S.split(‘,’)
 S.lower()
