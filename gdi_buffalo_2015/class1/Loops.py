@@ -59,11 +59,11 @@ while food < 5:
 	if hungry == 'Y':
 		print('Here is a treat for you.')
 		food += 1
-	else:
+	elif hungry == "N":
 		break
-else:
-	print("I sure was hungry!")
-print('Now I am full')
+print('I am full')
+	
+
 
 dogs = ['Holly', 'Max', 'Sadie', 'Joey']
 while dogs:					
