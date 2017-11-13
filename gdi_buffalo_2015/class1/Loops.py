@@ -1,8 +1,8 @@
-dogs = [‘Rover’, ‘Max’, ‘Holly’] 	
+dogs = ['Rover', 'Max', 'Holly'] 	
 for dog in dogs:
 	dog = dog + '\'s'
 	print(dog)		
-	
+print(dogs)
 for letter in “word”:
 	print(letter + “uba”)
 
@@ -36,11 +36,11 @@ for i in range(len(cards)):
 	cards = cards[i:] + cards[:i]
 	print(cards)
 
-multiples_of_two_and_three = []
+evens = []
 for x in range(100):
-	if x%2 == 0 and x%3==0:
-		multiples_of_two_and_three.append(x)
-print(multiples_of_two_and_three)
+	if x%2 == 0:
+		evens.append(x)
+print(evens)
 
 for i, day in enumerate(['Mon', 'Tue', 'Wed', 'Thurs', 'Fri']):
 	print(i, day)
