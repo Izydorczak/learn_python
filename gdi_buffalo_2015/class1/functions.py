@@ -30,23 +30,23 @@ def salutation(person, gender):
 
 team = {'Izydorczak:"female", 'Jansson':"female", 'Ryan':"male"]
 for member in team:
-	print “Hi “
+	print "Hi "
 	salutation(member, team[member])
 
 def express_happy():
-	say_options =[“I love you!”, “Hip hip hurray!”, “Purr, Purr, I’m happy!”]
+	say_options =["I love you!", "Hip hip hurray!", "Purr, Purr, I'm happy!"]
 	print(random.choice(say_options))
 
 import random
 hungry = random.randint(0,10)
 if hungry < 5:
-	print “Hungry”
+	print "Hungry"
 else:
 	express_happy()
 
 import random
 def express_happy(owner):
-	say_options = [“I love you “ + owner + “!”, “Hip hip hurray!”]
+	say_options = ["I love you " + owner + "!", "Hip hip hurray!"]
 	print(random.choice(say_options))
 
 drawSquare()
