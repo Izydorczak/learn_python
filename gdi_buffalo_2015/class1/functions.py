@@ -28,10 +28,10 @@ def salutation(person, gender):
 	else:
 		print("Mr. " + person)
 
-team = {'Izydorczak:"female", 'Jansson':"female", 'Ryan':"male"]
+team_genders = {'Izydorczak':"female", 'Jansson':"female", 'Ryan':"male"]
 for member in team:
 	print "Hi "
-	salutation(member, team[member])
+	salutation(member, team_genders[member])
 
 def express_happy():
 	say_options =["I love you!", "Hip hip hurray!", "Purr, Purr, I'm happy!"]
