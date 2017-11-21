@@ -1,5 +1,5 @@
 def credits():
-	print("This example was borrowed from \'Learning Python\' by Mark Lutz.")
+	print("This example was borrowed from Learning Python by Mark Lutz.")
 
 credits()
 	
