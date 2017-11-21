@@ -29,7 +29,7 @@ def salutation(person, gender):
 		print("Mr. " + person)
 
 team_genders = {'Izydorczak':"female", 'Jansson':"female", 'Ryan':"male"]
-for member in team:
+for member in team_genders:
 	print "Hi "
 	salutation(member, team_genders[member])
 
