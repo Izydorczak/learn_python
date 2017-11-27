@@ -23,24 +23,24 @@ for transaction in range(8):
 print(total_tips)
 
 def salutation(person, gender):
-	if gender = "female" or gender == "f":
+	if gender == "female" or gender == "f":
 		print("Ms. " + person)
 	else:
 		print("Mr. " + person)
 
-team_genders = {'Izydorczak':"female", 'Jansson':"female", 'Ryan':"male"]
+team_genders = {'Izydorczak':"female", 'Jansson':"female", 'Ryan':"male"}
 for member in team_genders:
-	print "Hi "
+	print("Hi ")
 	salutation(member, team_genders[member])
 
+import random
 def express_happy():
 	say_options =["I love you!", "Hip hip hurray!", "Purr, Purr, I'm happy!"]
 	print(random.choice(say_options))
 
-import random
 hungry = random.randint(0,10)
 if hungry < 5:
-	print "Hungry"
+	print("Hungry")
 else:
 	express_happy()
 
