@@ -26,12 +26,12 @@ diane.left(72)
 wn.exitonclick()
 
 
-for sideNum in [1,2,3,4,5]:
+for side in [1,2,3,4,5]:
   diane.forward(100)
   diane.left(72)
   
   
-for sideNum in range(5):
+for side in range(5):
   diane.forward(100)
   diane.left(72)
   
@@ -45,14 +45,14 @@ diane.pensize(4)
 
 
 
-for aColor in ["red", "blue", "yellow", "green", "purple"]:
-  diane.color(aColor)
+for color in ["red", "blue", "yellow", "green", "purple"]:
+  diane.color(color)
   diane.forward(100)
   diane.left(72)
   
   
   
-def drawSquare():
+def draw_square():
   diane.penup()
   diane.goto(50,50)
   diane.pendown()
@@ -61,10 +61,10 @@ def drawSquare():
       diane.right(90)
       
       
-drawSquare()
+draw_square()
 
 
-def drawSquare(x,y):
+def draw_square(x,y):
   diane.penup()
   diane.goto(x,y)
   diane.pendown()
@@ -72,5 +72,5 @@ def drawSquare(x,y):
       diane.forward(50)
       diane.right(90)
       
-drawSquare(50,50)
-drawSquare(100,200)
+draw_square(50,50)
+draw_square(100,200)
